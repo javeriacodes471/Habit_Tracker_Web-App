@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #habit-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #habit-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 8px 0;
+    background: #e0f7fa;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
